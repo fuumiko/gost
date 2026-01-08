@@ -28,7 +28,7 @@ require (
 	github.com/gin-contrib/cors v1.7.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.10.1 // indirect
-	github.com/go-gost/go-shadowsocks2 v0.1.1 // indirect
+	github.com/go-gost/go-shadowsocks2 v0.1.2 // indirect
 	github.com/go-gost/gosocks4 v0.0.1 // indirect
 	github.com/go-gost/gosocks5 v0.4.2 // indirect
 	github.com/go-gost/plugin v0.2.1 // indirect
@@ -127,3 +127,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gvisor.dev/gvisor v0.0.0-20250523182742-eede7a881b20 // indirect
 )
+
+replace github.com/go-gost/x => github.com/fuumiko/gost-x v0.8.2-0.20260108053611-0bb1d85f589f
