@@ -47,6 +47,7 @@ import (
 	_ "github.com/go-gost/x/dialer/ws"
 
 	// Register handlers
+	_ "github.com/go-gost/x/handler/quicsni"
 	_ "github.com/go-gost/x/handler/api"
 	_ "github.com/go-gost/x/handler/auto"
 	_ "github.com/go-gost/x/handler/dns"
@@ -75,6 +76,7 @@ import (
 	_ "github.com/go-gost/x/handler/unix"
 
 	// Register listeners
+	_ "github.com/go-gost/x/listener/quicsni"
 	_ "github.com/go-gost/x/listener/dns"
 	_ "github.com/go-gost/x/listener/dtls"
 	_ "github.com/go-gost/x/listener/ftcp"
